@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Blue Header */
+.blue-header {
+  background-color: #003366;
+  /* Navy Blue */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  margin-left: 30px;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+  /* Hover color (golden) */
+}
+
+/* middle */
+.mid-section {
+  background-color: grey;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+}
+
+.mid-section img {
+  height: 60px;
+}
+
+.mid-section .title-text {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+/* Middle Tab */
+.middle-tab {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.middle-tab span {
+  margin-right: 20px;
+}
+
+/* Red Tab */
+.red-tab {
+  background-color: #800000;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  font-weight: bold;
+}
